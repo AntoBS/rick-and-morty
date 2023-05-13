@@ -1,0 +1,17 @@
+body {
+  background-image: url("./assets/Rick-and-Morty-3p.jpg");
+  margin: 0;
+  font-family: 'Delicious Handrawn', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*min-height: 100vh;*/
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} 
+
+.container {
+
+    position: absolute;
+    display: inline-block;
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: 0.5s linear;
+    border-radius: 10px;
+}
+
+  
+.card{
+    background-color: rgb(9, 9, 9);
+    width:fit-content;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 9px 8px 13px -4px rgb(105,172,61);
+    border: 3px solid rgb(186, 224, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: perspective(600px) rotateY(0deg);
+    max-width: 300px;
+    max-height: 400px;
+    
+}
+
+.cardBody{
+    /*opacity: 0.46; */
+
+}
+
+.closeButton{
+    border: 0px;
+    background:rgb(105,172,61);
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.closeButton:hove{
+    box-shadow: 9px 8px 13px -4px rgb(165, 171, 167);
+}
+
+.name, .species, .gender{
+    text-align: center;
+    color: whitesmoke;
+    padding: 0.3rem 1rem;
+    
+}
+
+.name{
+    font-size: flex;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.species, .gender{
+    /*font-size: 30px;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardImg{
+    object-fit: cover;
+    width:100%;
+    height:80%;
+}
+
+
+/*.overFlow{
+    overflow: hidden;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+/*.cardImg{
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px 0px 0px 8px;
+    
+}*/
+/*.cardImg:hover{
+    transform: scale(1.8);
+}*/
+/*.card{
+    flex: 1;
+    margin: 0;
+    padding: 1rem;
+}*/

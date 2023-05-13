@@ -1,0 +1,13 @@
+.searchImput{
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    height: 2em;
+   
+}
+
+.searchButton{
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    height: 2em; 
+    background-color: rgb(105,172,61);
+}
